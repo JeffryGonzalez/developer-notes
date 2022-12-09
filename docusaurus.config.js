@@ -119,6 +119,7 @@ const config = {
         copyright: `Copyright © ${new Date().getFullYear()} Jeff Gonzalez, Inc. Built with Docusaurus.`,
       },
       prism: {
+        additionalLanguages: ['csharp'],
         theme: lightCodeTheme,
         darkTheme: darkCodeTheme,
       },
